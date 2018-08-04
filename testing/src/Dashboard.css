@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+}
+
+.ds-box {
+  height: 700px;
+  width: 700px;
+  background-color: pink;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.ds-menu {
+  display: flex;
+  flex-flow: wrap;
+  background-color: orange;
+}
+
+.ds-list {
+  width: 50%;
+  height: 40px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.ds-list:hover {
+  background-color: white;
+}
+
+.switchable-layer {
+  width: 100%;
+}
+
+.ds-title {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 'bold';
+}
+
+.layer-state {
+  height: 500px;
+  width: 100%;
+}
+
+.ds-edit {
+  height: 500px;
+  width: 100%;
+}
+
+.ds-wrap {
+  padding: 10px;
+}
+
+.e-input {
+  padding-left: 5px;
+  height: 35px;
+  width: 300px;
+}
+
+.button-s {
+  margin-top: 20px;
+  height: 30px;
+  width: 80px;
+}
